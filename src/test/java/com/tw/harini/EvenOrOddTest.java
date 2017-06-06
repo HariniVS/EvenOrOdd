@@ -25,5 +25,6 @@ public class EvenOrOddTest {
     public void shouldReturnOdd() {
         EvenOrOdd evenOrOdd = new EvenOrOdd();
         assertEquals("odd", evenOrOdd.checkEvenOrOdd(5));
+        assertEquals("even ", evenOrOdd.checkEvenOrOdd(4));
     }
 }
