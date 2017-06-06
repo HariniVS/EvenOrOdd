@@ -4,7 +4,7 @@ package com.tw.harini;
  * Created by harinivs on 06/06/17.
  */
 public class EvenOrOdd {
-    public String checkEvenOrOdd(int number) {
+    public String checkEvenOrOdd(int number){
         if (number % 2 == 0) {
             return "even";
         }
