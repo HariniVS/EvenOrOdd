@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tw.harini.EvenOrOddTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-06T10:02:16" hostname="Harinis-MacBook-Pro.local" time="0.001">
-  <properties/>
-  <testcase name="shouldReturnEven" classname="com.tw.harini.EvenOrOddTest" time="0.001"/>
-  <testcase name="shouldCheckOddOrEven" classname="com.tw.harini.EvenOrOddTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
