@@ -37,6 +37,7 @@ task buildDocker(type: Docker, dependsOn: build) {
             into stageDir
         }
     }
+    tag = 'harinivs/evenoroddassertion:latest'
 }
 version = System.getenv('TRAVIS_BUILD_NUMBER')
 
@@ -52,7 +53,7 @@ jar {
         )
     }
     baseName = 'gs-spring-boot-docker'
-    version =  '0.1.0'
+    version = '0.1.0'
 }
 
 repositories {
@@ -73,6 +74,6 @@ idea {
         outputDir = file("$buildDir/classes/main/")
     }
 }
-distDocker{
+distDocker {
     exposePort 8080
 }
