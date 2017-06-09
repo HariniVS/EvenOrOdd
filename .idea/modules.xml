@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EvenOrOddAssertion.iml" filepath="$PROJECT_DIR$/EvenOrOddAssertion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EvenOrOddAssertion_main.iml" filepath="$PROJECT_DIR$/.idea/modules/EvenOrOddAssertion_main.iml" group="EvenOrOddAssertion" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EvenOrOddAssertion_test.iml" filepath="$PROJECT_DIR$/.idea/modules/EvenOrOddAssertion_test.iml" group="EvenOrOddAssertion" />
     </modules>
   </component>
 </project>
