@@ -38,10 +38,11 @@ task buildDocker(type: Docker, dependsOn: build) {
         }
     }
 }
+version = System.getenv('TRAVIS_BUILD_NUMBER')
 
 war {
     baseName = 'myapp'
-    version =  '0.5.0'
+    version = version
 }
 
 jar {
