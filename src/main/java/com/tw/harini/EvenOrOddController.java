@@ -8,6 +8,6 @@ public class EvenOrOddController {
 
     @RequestMapping("/")
     public String index() {
-        return "Greetings from Spring Boot! Megha and Harini are paring..it should be amazing...Have a great day";
+        return "Greetings from Spring Boot! Megha and Harini are paring..it should be amazing...Indeed!!";
     }
 }
