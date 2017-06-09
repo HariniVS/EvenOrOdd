@@ -1,4 +1,10 @@
+sudo: required
+
+services:
+  - docker
+  
 language: java
+
 after_success:
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
     docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
