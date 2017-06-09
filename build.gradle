@@ -43,7 +43,6 @@ version = System.getenv('TRAVIS_BUILD_NUMBER')
 war {
     baseName = 'myapp'
     version = version
-    println("Travis build version"+version)
 }
 
 jar {
@@ -77,4 +76,3 @@ idea {
 distDocker{
     exposePort 8080
 }
-
