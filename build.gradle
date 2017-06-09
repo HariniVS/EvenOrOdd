@@ -37,7 +37,7 @@ task buildDocker(type: Docker, dependsOn: build) {
             into stageDir
         }
     }
-    tag = 'harinivs/evenoroddassertion:latest'
+    tag = 'harinivs/evenoroddassertion'
 }
 version = System.getenv('TRAVIS_BUILD_NUMBER')
 
